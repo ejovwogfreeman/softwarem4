@@ -126,11 +126,17 @@ body {
 .mobile-nav .links {
     display: block;
     text-align: center;
+    /* background-color: red; */
+    padding: 0px;
 }
 
 .mobile-nav .links li a {
     font-size: 20px;
     margin: 10px;
+}
+
+.mobile-nav .icons {
+    padding: 0px;
 }
 
 .mobile-nav .icons li a {
@@ -596,6 +602,10 @@ body {
 }
 
 @media screen and (max-width: 980px) {
+    .nav {
+        height: 12vh;
+    }
+
     .hamburger-menu {
         display: block;
         font-size: 25px;
@@ -620,6 +630,11 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+
+    .nav {
+        height: 10vh;
+    }
+
     .features {
         padding: 0px 10%;
         margin-top: 20px;
@@ -672,7 +687,7 @@ body {
 
 @media screen and (max-width: 600px) {
     .nav {
-        height: 12vh;
+        height: 8vh;
     }
 
     .nav .logo {
